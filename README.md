@@ -13,8 +13,8 @@ Please use below links to view:
 
 
 ## Insights from WeatherPy Analysis:
-- Temperature and Latitude have a positive relationship in the Southern Hemisphere- as a city's latitude increases, its temperature does as well. In the Northern Hemisphere, Temperature and Latutitude have a negative relationship- as a city's latitude decreases, temperature also decreases. Latitude and Temperature are strongly correlated in both hemispheres. 
-- The Northern Hemisphere has a slightly smaller r-squared value compared to the Southern Hemisphere. This means that there is a slightly higher percentage of variance in the Northern Hemisphere, and likely due to the fact that 3x more cities are located North of the Equator in the dataset.
-- Temperature, Humidity and Wind Speed are not correlated with Latitude. Looking at the linear regression for each variable, one can see that there are a number of major outliers in the dataset.  
+- Temperature and Latitude have a positive relationship in the Southern Hemisphere. As a city's latitude increases, its temperature does as well. In the Northern Hemisphere, Temperature and Latutitude have a negative relationship. As a city's latitude decreases, temperature also decreases. Therefore, Latitude and Temperature are strongly correlated. 
+- Looking at the relationship between Temperature and Latitude, the Northern Hemisphere has a slightly lower r-squared value (0.626) than the Southern Hemisphere (0.783). This means there is a higher percentage of variance across Northern cities and their temperatures, perhaps due to the fact 3x more cities are located North of the Equator in the dataset.
+- Temperature, Humidity, Cloudiness and Wind Speed are not strongly correlated with Latitude. Looking at linear regressions between variables, one can see that the line of best fit shows a weak relationship. There are also a number of major outliers within each linear regression.
 
 
