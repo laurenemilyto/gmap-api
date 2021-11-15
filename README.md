@@ -1,4 +1,5 @@
-# python-api-challenge
+# Google Maps API
+![map](VacationPy/heatmap.png)
 
 ## Description
 Used a python script and matplotlib to:
